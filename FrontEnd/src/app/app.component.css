@@ -1,0 +1,14 @@
+.navbar {
+    background: linear-gradient(to right, #FFD700, #FF6347, #00FA9A, #87CEEB);
+    color:black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }

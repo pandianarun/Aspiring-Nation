@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+.container-fluid {
+  font-family: 'Pacifico', cursive; /* Use a unique font */
+  font-size: 2em;
+  margin: 0;
+  letter-spacing: 2px; /* Add letter spacing for style */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+  cursor: pointer; /* Change cursor on hover */
+  transition: color 0.3s; /* Smooth color transition on hover */
+
+  &:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

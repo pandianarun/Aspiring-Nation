@@ -1,0 +1,28 @@
+table-container {
+    margin: 0 auto; 
+    width: 50%; 
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse; 
+    border: 1px solid #ddd; 
+  }
+  
+  th, td {
+    border: 1px solid #ddd; 
+    padding: 8px;
+    text-align: left;
+    text-size-adjust: 500;
+  }
+  th{
+    text-align: center;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

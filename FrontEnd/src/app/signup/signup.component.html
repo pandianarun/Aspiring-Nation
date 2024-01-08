@@ -1,0 +1,34 @@
+
+  
+  <nav class="navbar">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Sign-Up For Any Assistance on your Preparation</span>
+    </div>
+  </nav><div class="row">
+    <div class="col-sm-2">
+
+    </div>
+    <div class="col-sm-8">
+      <form [formGroup]="postUserForm" (ngSubmit)="OnSubmit()">
+        <div class="mb-3">
+          <label class="form-label">Aspirant Name</label>
+          <input type="text" class="form-control" name="name" formControlName="name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Aspirant Email</label>
+          <input type="email" class="form-control" name="email" formControlName="email">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Aspirant Contact No</label>
+          <input type="text" class="form-control" name="phone" formControlName="phone">
+        </div>
+        <button type="submit" (click)="addUser()" class="btn bt">Add</button>
+      </form>
+      <div *ngIf="successMessage" class="success-message">
+        {{ successMessage }}
+      </div>
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+  </div>
